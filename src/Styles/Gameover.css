@@ -12,6 +12,7 @@
     }
   }
   .Gameover {
+    border-radius: 5px;
     position:fixed;
     top: 0;
     left: 0;
@@ -28,6 +29,9 @@
   }
   .Gameover h2{
     font-size: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
   
     
   }
@@ -42,6 +46,7 @@
     border-radius: 5px;
     border: 2px solid #FFB703;
     animation: pulse 1.5s infinite ease-in-out;
+    margin-left: 0;
   }
   .Gameover button:hover{
     color: #060a0c;

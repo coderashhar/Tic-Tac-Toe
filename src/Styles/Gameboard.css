@@ -12,10 +12,18 @@
 }
 .Gameboard{
     margin-top: 30px;
-    padding-inline-start: 0;
+    padding: 0;
+    align-self: center;
+
 }
 .row , .col {
     display: inline;
+}
+.col > ol{
+    padding-inline-start: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

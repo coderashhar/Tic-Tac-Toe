@@ -1,9 +1,9 @@
 .playingArena{
   text-align: center;
   background-color:#023047;
-  width:900px;
+  width:fit-content;
   height:fit-content;
-  padding: 50px 0; 
+  padding: 50px 20px; 
   margin: auto;
   border-radius: 10px;
   filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
@@ -11,6 +11,9 @@
 .playingArena > p{
   font-size: 50px;
   color: #FFB703;
+}
+.playingArena > ol {
+  padding: 0;
 }
 body > img , body>h1{
   filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
