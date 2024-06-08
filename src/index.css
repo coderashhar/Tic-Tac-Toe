@@ -6,8 +6,18 @@
   padding: 50px 0; 
   margin: auto;
   border-radius: 10px;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
 }
 .playingArena > p{
   font-size: 50px;
   color: #FFB703;
+}
+body > img , body>h1{
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
+}
+body{
+  background: url('bg-pattern.png');
+  background-repeat: repeat;
+  /* background-size: 100% 100%, 30% 30%, 100% 100%; */
+  /* min-height: 110rem; */
 }
